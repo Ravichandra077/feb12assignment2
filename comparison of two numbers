@@ -1,0 +1,17 @@
+#comparison of two numbers
+
+a=input("enter a value :")
+
+b=input("enter b value :")
+
+if ( a == b ):
+   print("{0} is equal to {1}".format(a,b))
+   
+if ( a != b ):
+   print ("{0} is not equal to {1}".format(a,b))
+
+if ( a > b ):
+   print ("and {0} is greater than {1}".format(a,b))
+
+if ( a < b ):
+   print ("and {0} is less than {1}".format(a,b))
